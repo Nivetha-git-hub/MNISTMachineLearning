@@ -13,7 +13,7 @@
 #clear_button{
   margin-left: 15px;
   font-weight: bold;
-  color: blue;
+  color: purple;
 }
 
 #confidence{
@@ -31,11 +31,11 @@
    text-align: center;
    position: relative;
    color: honeydew;
-   background-color: greenyellow;
+   background-color: purple;
    padding-top: 1%;
    padding-bottom: 1%;
    font-weight: bold;
-   font-family: 'Prompt', sans-serif;
+   font-family: "Times New Roman", Times, serif;
    
 }
 
@@ -50,7 +50,7 @@
 
 #predict_button{
   margin-right: 15px;
-  color: blue;
+  color: purple;
   font-weight: bold;
 }
 
