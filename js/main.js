@@ -131,7 +131,8 @@ var base_url = window.location.origin;
 let model;
 (async function(){  
     console.log("model loading...");  
-    model = await tf.loadLayersModel("/static/css/models/model.json")
+    model = await tf.loadLayersModel("https://github.com/Nivetha-git-hub/MNISTMachineLearning/tree/main/js")
+//for flask enter filename as "/static/css/javascipt/main.js"
     console.log("model loaded..");
 })();
 
