@@ -159,7 +159,7 @@ var base_url = window.location.origin;
 let model;
 (async function(){  
     console.log("model loading...");  
-    model = await tf.loadLayersModel("https://Nivetha-git-hub.github.io/MNISTMachineLearning/models/model.json")
+    model = await tf.loadLayersModel("https://github.com/Nivetha-git-hub/MNISTMachineLearning/blob/main/models/model.json")
     
     console.log("model loaded..");
 })();
