@@ -1,6 +1,13 @@
 var canvas,ctx;
 var mouseX,mouseY,mouseDown=0;
 var touchX,touchY;
+const cors = require("cors")
+
+app.use(
+    cors({
+        origin: "*",
+    })
+    )
 
 
 
@@ -159,7 +166,7 @@ var base_url = window.location.origin;
 let model;
 (async function(){  
     console.log("model loading...");  
-    model = await tf.loadLayersModel("https://cors-anywhere.herokuapp.com/https://Nivetha-git-hub.github.io/MNISTMachineLearning/models/model.json")
+    model = await tf.loadLayersModel("https://Nivetha-git-hub.github.io/MNISTMachineLearning/models/model.json")
     console.log("model loaded..");
 })();
 
