@@ -1,5 +1,3 @@
-
-
 var canvas,ctx;
 var mouseX,mouseY,mouseDown=0;
 var touchX,touchY;
