@@ -1,8 +1,4 @@
-git clone https://github.com/Rob--W/cors-anywhere.git
-cd cors-anywhere/
-npm install
-heroku create
-git push heroku master
+
 
 var canvas,ctx;
 var mouseX,mouseY,mouseDown=0;
